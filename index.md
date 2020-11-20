@@ -1,9 +1,9 @@
 # Python pro data 1
 
-- Instalace
-- O čem je datová analýza
-- Načtení dat
-- Základní dotazy
-- Agregace a spojování
-- Vizualizace
+- [Instalace](instalace/lesson.md)
+- [O čem je datová analýza](datova-analyza/lesson.md)
+- [Načtení dat](nacteni-dat/lesson.md)
+- [Základní dotazy](zakladni-dotazy/lesson.md)
+- [Agregace a spojování](agregace-a-spojovani/lesson.md)
+- [Vizualizace](vizualizace/lesson.md)
     
