@@ -381,8 +381,35 @@ dtypes: int64(1), object(2)
 memory usage: 392.0+ bytes
 ```
 
-@exercises ## Cvičení [
+## Cvičení
 
-- ceska-jmena
-- ceska-jmena-2
-  ]@
+### Česká jména
+
+Stáhni si soubor [jmena.csv](excs/assets/jmena.csv), který obsahuje tabulku 100 nejpoužívanějších českých křestních jmen seřazených od nejpoužívanějšího k nejméně používanému. Otevři Python konzoli a pomocí Pandasu načti tuto tabulku jako DataFrame. Jako index zvol sloupec s názvem 'jméno'.
+
+Datový soubor obsahuje následující sloupečky
+
+- **jméno** \- křestní jméno
+- **četnost** \- počet obyvatel ČR mající toto jméno
+- **věk** \- průměrný věk nositelů jména
+- **pohlaví** \- zda je jméno mužské či ženské
+- **svátek** \- datum, kdy má dané jméno svátek
+- **původ** \- původ jména
+
+Vyřešte následující úkoly.
+
+1. Vypište na konzoli informace o jménu Jiří.
+1. Vypište na konzoli informace pro jména Martin, Zuzana a Josef.
+1. Vypište na konzoli informace o všech nejčastějších jménech až po Jiřího.
+1. Vypište pouze průměrné věky osob mající jména mezi Martinem a Terezou.
+1. Vypište průměrný věk a původ pro všechna jména od Libora dolů.
+1. Vypište sloupečky mezi věkem a původem pro všechna jména v tabulce.
+
+### Česká jmeéna podruhé
+
+Stáhni si soubor [jmena.csv](assets/jmena.csv) se jmény tak, aby Pandas vyrobil číselný index. Proveď následující dotazy:
+
+1. Vypiš všechny řádky se jmény, jejichž nositelé mají průměrný věk vyšší než 60.
+1. Vypiš pouze jména z těch řádků, kde četnost je mezi 80 000 a 100 000.
+1. Vypiš jména a četnost pro jména se slovanským nebo hebrejským původem. Kolik takových jmen je?
+1. Vypiš všechna jména, která mají svátek první 3 dny v únoru.
