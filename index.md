@@ -6,4 +6,4 @@
 - [Základní dotazy](zakladni-dotazy/lesson.md)
 - [Agregace a spojování](agregace-a-spojovani/lesson.md)
 - [Vizualizace](vizualizace/lesson.md)
-    
+- [Datum a čas](datum/lesson.md)
